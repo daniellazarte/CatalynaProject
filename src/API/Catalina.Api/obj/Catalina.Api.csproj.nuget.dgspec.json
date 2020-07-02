@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ricciardo\\Documents\\Net Core Projects\\API Catalyna\\src\\API\\Catalina.Api\\Catalina.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ricciardo\\Documents\\Net Core Projects\\API Catalyna\\src\\API\\Catalina.Api\\Catalina.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ricciardo\\Documents\\Net Core Projects\\API Catalyna\\src\\API\\Catalina.Api\\Catalina.Api.csproj",
+        "projectName": "Catalina.Api",
+        "projectPath": "C:\\Users\\Ricciardo\\Documents\\Net Core Projects\\API Catalyna\\src\\API\\Catalina.Api\\Catalina.Api.csproj",
+        "packagesPath": "C:\\Users\\Ricciardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ricciardo\\Documents\\Net Core Projects\\API Catalyna\\src\\API\\Catalina.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ricciardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Ricciardo\\Documents\\Net Core Projects\\API Catalyna\\src\\Library\\Catalyna.Core\\Catalyna.Core.csproj": {
+                "projectPath": "C:\\Users\\Ricciardo\\Documents\\Net Core Projects\\API Catalyna\\src\\Library\\Catalyna.Core\\Catalyna.Core.csproj"
+              },
+              "C:\\Users\\Ricciardo\\Documents\\Net Core Projects\\API Catalyna\\src\\Library\\Catalyna.Infraestructure\\Catalyna.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\Ricciardo\\Documents\\Net Core Projects\\API Catalyna\\src\\Library\\Catalyna.Infraestructure\\Catalyna.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ricciardo\\Documents\\Net Core Projects\\API Catalyna\\src\\Library\\Catalyna.Core\\Catalyna.Core.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ricciardo\\Documents\\Net Core Projects\\API Catalyna\\src\\Library\\Catalyna.Core\\Catalyna.Core.csproj",
+        "projectName": "Catalyna.Core",
+        "projectPath": "C:\\Users\\Ricciardo\\Documents\\Net Core Projects\\API Catalyna\\src\\Library\\Catalyna.Core\\Catalyna.Core.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Ricciardo\\Documents\\Net Core Projects\\API Catalyna\\src\\Library\\Catalyna.Infraestructure\\Catalyna.Infraestructure.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ricciardo\\Documents\\Net Core Projects\\API Catalyna\\src\\Library\\Catalyna.Infraestructure\\Catalyna.Infraestructure.csproj",
+        "projectName": "Catalyna.Infraestructure",
+        "projectPath": "C:\\Users\\Ricciardo\\Documents\\Net Core Projects\\API Catalyna\\src\\Library\\Catalyna.Infraestructure\\Catalyna.Infraestructure.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Ricciardo\\Documents\\Net Core Projects\\API Catalyna\\src\\Library\\Catalyna.Core\\Catalyna.Core.csproj": {
+                "projectPath": "C:\\Users\\Ricciardo\\Documents\\Net Core Projects\\API Catalyna\\src\\Library\\Catalyna.Core\\Catalyna.Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
