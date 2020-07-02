@@ -1,4 +1,7 @@
 ﻿using Catalyna.Core.Entities;
+using Catalyna.Core.Interfaces;
+using Catalyna.Infraestructure.Data;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,23 +10,17 @@ using System.Threading.Tasks;
 
 namespace Catalyna.Infraestructure.Repositories
 {
-    public class ArticleRepository
-    { 
-        public IEnumerable<Article> GetArticles()
+    public class ArticleRepository: IArticleRepository
+    {
+        private readonly CatalynaMediaContext _context;
+        public ArticleRepository(CatalynaMediaContext context)
         {
-            var Articles = Enumerable.Range(1, 10).Select(x => new Article
-            {
-                ArticleId = x,
-                Title = $"Title {x}",
-                SubTitle = $"Subtitle {x}",
-                Description = $"Descripcion {x}",
-                DateCreate = DateTime.Now,
-                UserId = x*2
-
-            });
-
-            return Articles;
-
+            _context = context;
+        }
+        public async Task<IEnumerable<Article>> GetArticles()
+        {
+            var articles = await _context.Article.ToListAsync();
+            return articles;
         }
     }
 }

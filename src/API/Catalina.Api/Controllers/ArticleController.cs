@@ -1,5 +1,7 @@
-﻿using Catalyna.Infraestructure.Repositories;
+﻿using Catalyna.Core.Interfaces;
+using Catalyna.Infraestructure.Repositories;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace Catalina.Api.Controllers
 {
@@ -7,10 +9,16 @@ namespace Catalina.Api.Controllers
     [ApiController]
     public class ArticleController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult GetArticles()
+        private readonly IArticleRepository _articlerepository;
+        public ArticleController(IArticleRepository articlerepository)
         {
-            var articles = new ArticleRepository().GetArticles();
+            _articlerepository = articlerepository; //Inyeccion de dependencias
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetArticles()
+        {
+            var articles = await  _articlerepository.GetArticles();
             return Ok(articles);
         }
 
