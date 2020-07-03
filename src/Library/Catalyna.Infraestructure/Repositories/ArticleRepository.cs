@@ -28,5 +28,12 @@ namespace Catalyna.Infraestructure.Repositories
             var article = await _context.Article.FirstOrDefaultAsync(x => x.ArticleId == idArticle);
             return article;
         }
+
+        //Insert Article
+        public async Task InsertArticle(Article article)
+        {
+            _context.Article.Add(article);
+            await _context.SaveChangesAsync();
+        }
     }
 }

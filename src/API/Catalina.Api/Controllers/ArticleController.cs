@@ -1,4 +1,5 @@
-﻿using Catalyna.Core.Interfaces;
+﻿using Catalyna.Core.Entities;
+using Catalyna.Core.Interfaces;
 using Catalyna.Infraestructure.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -21,6 +22,7 @@ namespace Catalina.Api.Controllers
             var articles = await  _articlerepository.GetArticles();
             return Ok(articles);
         }
+
         [HttpGet("{ArticleId}")]
         public async Task<IActionResult> GetArticle(int ArticleId)
         {
@@ -29,6 +31,13 @@ namespace Catalina.Api.Controllers
             return Ok(article);
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Article(Article article)
+        {
+            //IMplementacion de TRaer Articulo por ID
+            await _articlerepository.InsertArticle(article);
+            return Ok(article);
+        }
 
     }
 }

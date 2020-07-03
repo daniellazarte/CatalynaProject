@@ -11,7 +11,9 @@ namespace Catalyna.Core.Interfaces
     {
         Task<IEnumerable<Article>> GetArticles();
         Task<Article> GetArticle(int ArticleId);
-   
+        Task InsertArticle(Article article);
+
+
 
     }
 }
