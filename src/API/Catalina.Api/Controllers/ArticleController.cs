@@ -21,6 +21,14 @@ namespace Catalina.Api.Controllers
             var articles = await  _articlerepository.GetArticles();
             return Ok(articles);
         }
+        [HttpGet("{ArticleId}")]
+        public async Task<IActionResult> GetArticle(int ArticleId)
+        {
+            //IMplementacion de TRaer Articulo por ID
+            var article = await _articlerepository.GetArticle(ArticleId);
+            return Ok(article);
+        }
+
 
     }
 }
