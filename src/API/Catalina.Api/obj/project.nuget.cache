@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "6tjyAAKwJ1/u317ikU5TSxzumt6HfgXscU9Quc57rf9zhrx4/vYiZMHghZndpgt78QlxOB0KeDz+KYwDUuNBjw==",
+  "dgSpecHash": "vk6VnWSlQS9fSHCiezbA2auxDeTqNVQxvmqUGCAWaqa4DtWwDF9sSudBuxqQvq8WCZlz8F9q7R74rJBmpjjiuw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ricciardo\\Documents\\Net Core Projects\\API Catalyna\\src\\API\\Catalina.Api\\Catalina.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ricciardo\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\Ricciardo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Ricciardo\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.5\\microsoft.aspnetcore.jsonpatch.3.1.5.nupkg.sha512",
+    "C:\\Users\\Ricciardo\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.5\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.5.nupkg.sha512",
     "C:\\Users\\Ricciardo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Ricciardo\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Ricciardo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -29,6 +33,8 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Ricciardo\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\Ricciardo\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\Ricciardo\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

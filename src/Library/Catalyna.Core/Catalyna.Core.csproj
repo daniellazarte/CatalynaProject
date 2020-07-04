@@ -41,12 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DTOS\ArticleDTO.cs" />
     <Compile Include="Entities\Article.cs" />
     <Compile Include="Interfaces\IArticleRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DTOS\" />
     <Folder Include="Enumerations\" />
     <Folder Include="Exceptions\" />
   </ItemGroup>

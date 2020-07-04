@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Catalyna.Core.Interfaces;
 using Catalyna.Infraestructure.Data;
 using Catalyna.Infraestructure.Repositories;
@@ -28,7 +29,17 @@ namespace Catalina.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            //services.AddControllers();
+
+            //Agregando AutoMapper a nuestro servicio
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+            //Esta es la modificacion para evitar errores de referencia circular.
+            services.AddControllers().AddNewtonsoftJson(options =>
+            {
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+            });
+
             //Registrar la Base de datos a acceder
             services.AddDbContext<CatalynaMediaContext>(options =>
                    options.UseSqlServer(Configuration.GetConnectionString("CatalynaDB"))

@@ -73,3 +73,8 @@ C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna
 C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Infraestructure\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Infraestructure\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Infraestructure\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Infraestructure\bin\Debug\AutoMapper.dll
+C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Infraestructure\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Infraestructure\bin\Debug\AutoMapper.pdb
+C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Infraestructure\bin\Debug\AutoMapper.xml
+C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Infraestructure\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.pdb
