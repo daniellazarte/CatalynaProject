@@ -61,5 +61,11 @@ C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\API\Catalina.Api
 C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\API\Catalina.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\API\Catalina.Api\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\API\Catalina.Api\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\API\Catalina.Api\bin\Debug\netcoreapp3.1\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\API\Catalina.Api\bin\Debug\netcoreapp3.1\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\API\Catalina.Api\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\API\Catalina.Api\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\API\Catalina.Api\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\API\Catalina.Api\obj\Debug\netcoreapp3.1\Catalina.Api.csproj.CoreCompileInputs.cache
+C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\API\Catalina.Api\obj\Debug\netcoreapp3.1\Catalina.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\API\Catalina.Api\obj\Debug\netcoreapp3.1\Catalina.Api.MvcApplicationPartsAssemblyInfo.cache
