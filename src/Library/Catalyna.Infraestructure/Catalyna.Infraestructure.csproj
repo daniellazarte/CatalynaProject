@@ -484,6 +484,7 @@
     <Compile Include="Repositories\ArticleMongoRepository.cs" />
     <Compile Include="Repositories\ArticleRepository.cs" />
     <Compile Include="Repositories\CategoryRepository.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="Validators\ArticleValidator.cs" />
     <Compile Include="Validators\CategoryValidator.cs" />
   </ItemGroup>

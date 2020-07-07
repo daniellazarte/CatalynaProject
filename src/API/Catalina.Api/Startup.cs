@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Catalyna.Core.Interfaces;
+using Catalyna.Core.Services;
 using Catalyna.Infraestructure.Data;
 using Catalyna.Infraestructure.Filters;
 using Catalyna.Infraestructure.Repositories;
@@ -54,7 +55,9 @@ namespace Catalina.Api
 
             //Resolver dependencias Aqui :)
             services.AddTransient<IArticleRepository, ArticleRepository>();
+            services.AddTransient<ICategoryService, CategoryService>();
             services.AddTransient<ICategoryRepository, CategoryRepository>();
+            services.AddTransient<IUserRepository, UserRepository>();
             //Cada vez que en el programa se haga uso de esta abstraccion yo le voy a entregar
             //a esa clase una instancia de esa implementacion
 

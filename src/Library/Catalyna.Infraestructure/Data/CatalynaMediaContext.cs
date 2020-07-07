@@ -24,6 +24,7 @@ namespace Catalyna.Infraestructure.Data
         //Tablas Virtuales
         public virtual DbSet<Article> Article { get; set; }
         public virtual DbSet<Category> Category { get; set; }
+        public virtual DbSet<User> User { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
