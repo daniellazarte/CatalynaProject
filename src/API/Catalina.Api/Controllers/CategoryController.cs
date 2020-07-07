@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
 using AutoMapper;
+using Catalina.Api.Responses;
 using Catalyna.Core.DTOS;
 using Catalyna.Core.Entities;
 using Catalyna.Core.Interfaces;
@@ -29,9 +30,11 @@ namespace Catalina.Api.Controllers
         public async Task<IActionResult> GetCategories()
         {
             var categories = await _categoryRepository.GetCategories();
-            var catdto = _mapper.Map<IEnumerable<CategoryDTO>>(categories);
+            var catsDTOS = _mapper.Map<IEnumerable<CategoryDTO>>(categories);
 
-            return Ok(catdto);
+            //var response = new APIResponse<IEnumerable<CategoryDTO>>(catsDTOS);
+
+            return Ok(catsDTOS);
         }
         
         [HttpGet("{CategoryId}")]
@@ -39,15 +42,42 @@ namespace Catalina.Api.Controllers
         {
             var category = await _categoryRepository.GetCategory(CategoryId);
             var catdto = _mapper.Map<CategoryDTO>(category);
+
+            //var response = new APIResponse<CategoryDTO>(catdto);
             return Ok(catdto);
         }
 
-        public async Task<IActionResult> Category(CategoryDTO categorydto)
+        [HttpPost]
+        public async Task<IActionResult> Post(CategoryDTO categorydto)
         {
             var category = _mapper.Map<Category>(categorydto);
             await _categoryRepository.InsertCategory(category);
-            return Ok(category); 
+
+            categorydto = _mapper.Map<CategoryDTO>(category);
+            var response = new APIResponse<CategoryDTO>(categorydto);
+            return Ok(response); 
         }
+
+        [HttpPut]
+        public async Task<IActionResult> Put(int CategoryId, CategoryDTO categorydto)
+        {
+            var category = _mapper.Map<Category>(categorydto);
+            category.CategoryId = CategoryId;
+
+            var result = await _categoryRepository.UpdateCategory(category);
+            //var response = new APIResponse<bool>(result);
+            return Ok(result);
+        }
+
+        [HttpDelete("{CategoryId}")]
+        public async Task<IActionResult> Delete(int CategoryId)
+        {
+           
+            var result = await _categoryRepository.DeleteCategory(CategoryId);
+            //var response = new APIResponse<bool>(result);
+            return Ok(result);
+        }
+
 
     }
 }

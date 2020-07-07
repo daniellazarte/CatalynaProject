@@ -34,5 +34,29 @@ namespace Catalyna.Infraestructure.Repositories
             await _context.SaveChangesAsync();
             
         }
+
+        public async Task<bool> UpdateCategory(Category category)
+        {
+            var currentcategory = await GetCategory(category.CategoryId);
+            currentcategory.Title = category.Title;
+            currentcategory.Description = category.Description;
+            currentcategory.SiteId = category.SiteId;
+            currentcategory.StateId = category.StateId;
+            currentcategory.Order = category.Order;
+
+            int rows = await _context.SaveChangesAsync();
+            return rows > 0;
+
+        }
+
+        public async Task<bool> DeleteCategory(int CategoryId)
+        {
+            var currentcategory = await GetCategory(CategoryId);
+            _context.Category.Remove(currentcategory);
+
+            int rows = await _context.SaveChangesAsync();
+            return rows > 0;
+
+        }
     }
 }
