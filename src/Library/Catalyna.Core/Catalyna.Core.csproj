@@ -42,8 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DTOS\ArticleDTO.cs" />
+    <Compile Include="DTOS\CategoryDTO.cs" />
     <Compile Include="Entities\Article.cs" />
+    <Compile Include="Entities\Category.cs" />
     <Compile Include="Interfaces\IArticleRepository.cs" />
+    <Compile Include="Interfaces\ICategoryRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

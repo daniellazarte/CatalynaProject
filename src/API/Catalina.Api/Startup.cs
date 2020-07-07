@@ -54,6 +54,7 @@ namespace Catalina.Api
 
             //Resolver dependencias Aqui :)
             services.AddTransient<IArticleRepository, ArticleRepository>();
+            services.AddTransient<ICategoryRepository, CategoryRepository>();
             //Cada vez que en el programa se haga uso de esta abstraccion yo le voy a entregar
             //a esa clase una instancia de esa implementacion
 

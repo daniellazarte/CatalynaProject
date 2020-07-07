@@ -10,6 +10,10 @@ namespace Catalyna.Infraestructure.Mappings
         {
             CreateMap<Article, ArticleDTO>();
             CreateMap<ArticleDTO, Article>();
+            
+            //Mapeando Category
+            CreateMap<Category, CategoryDTO>();
+            CreateMap<CategoryDTO, Category>();
         }
     }
 }
