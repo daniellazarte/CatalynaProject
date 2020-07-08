@@ -64,6 +64,9 @@ namespace Catalina.Api
             //Cada vez que en el programa se haga uso de esta abstraccion yo le voy a entregar
             //a esa clase una instancia de esa implementacion
 
+            //Implememtacion de UnitOf Work
+            services.AddTransient<IUnitOfWork,UnitOfWork>();
+
             services.AddMvc(options => 
             {
                 options.Filters.Add<ValidationFilter>();

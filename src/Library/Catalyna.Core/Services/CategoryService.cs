@@ -14,6 +14,7 @@ namespace Catalyna.Core.Services
     {
         private readonly ICategoryRepository _categoryRepository;
         private readonly IUserRepository _userRepository;
+        //private readonly IUnitOfWork _unitofWork;
         public CategoryService(ICategoryRepository categoryRepository, IUserRepository userRepository)
         {
             _categoryRepository = categoryRepository;

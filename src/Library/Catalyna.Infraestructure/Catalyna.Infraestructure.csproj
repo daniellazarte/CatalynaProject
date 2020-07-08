@@ -491,6 +491,7 @@
     <Compile Include="Repositories\ArticleRepository.cs" />
     <Compile Include="Repositories\BaseRepository.cs" />
     <Compile Include="Repositories\CategoryRepository.cs" />
+    <Compile Include="Repositories\UnitOfWork.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="Validators\ArticleValidator.cs" />
     <Compile Include="Validators\CategoryValidator.cs" />
