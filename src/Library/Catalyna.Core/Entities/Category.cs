@@ -1,6 +1,6 @@
 ﻿namespace Catalyna.Core.Entities
 {
-    public class Category
+    public class Category: BaseEntity
     {
         public Category()
         {

@@ -2,7 +2,7 @@
 
 namespace Catalyna.Core.Entities
 {
-    public partial class Article
+    public partial class Article: BaseEntity
     {
         public Article()
         {

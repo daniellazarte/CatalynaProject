@@ -206,3 +206,9 @@ C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna
 C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Infraestructure\bin\Debug\Microsoft.Extensions.WebEncoders.xml
 C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Infraestructure\bin\Debug\Newtonsoft.Json.Bson.xml
 C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Infraestructure\bin\Debug\System.Reflection.Metadata.xml
+C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Infraestructure\bin\Debug\Elasticsearch.Net.dll
+C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Infraestructure\bin\Debug\Nest.dll
+C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Infraestructure\bin\Debug\Elasticsearch.Net.pdb
+C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Infraestructure\bin\Debug\Elasticsearch.Net.xml
+C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Infraestructure\bin\Debug\Nest.pdb
+C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Infraestructure\bin\Debug\Nest.xml

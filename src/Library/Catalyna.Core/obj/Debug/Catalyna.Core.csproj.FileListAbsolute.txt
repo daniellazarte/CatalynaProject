@@ -1,6 +1,6 @@
 C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Core\bin\Debug\Catalyna.Core.dll
 C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Core\bin\Debug\Catalyna.Core.pdb
-C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Core\obj\Debug\Catalyna.Core.csprojAssemblyReference.cache
 C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Core\obj\Debug\Catalyna.Core.csproj.CoreCompileInputs.cache
 C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Core\obj\Debug\Catalyna.Core.dll
 C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Core\obj\Debug\Catalyna.Core.pdb
+C:\Users\Ricciardo\Documents\Net Core Projects\API Catalyna\src\Library\Catalyna.Core\obj\Debug\Catalyna.Core.csprojAssemblyReference.cache

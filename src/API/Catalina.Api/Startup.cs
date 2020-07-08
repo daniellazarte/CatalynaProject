@@ -58,6 +58,9 @@ namespace Catalina.Api
             services.AddTransient<ICategoryService, CategoryService>();
             services.AddTransient<ICategoryRepository, CategoryRepository>();
             services.AddTransient<IUserRepository, UserRepository>();
+
+            //Implementacion de Interfaces Genericas: 
+            //services.AddScoped(typeof(IRepository<>),typeof(BaseRepository<>)); // IMplementacion de repositorios Genericos
             //Cada vez que en el programa se haga uso de esta abstraccion yo le voy a entregar
             //a esa clase una instancia de esa implementacion
 
